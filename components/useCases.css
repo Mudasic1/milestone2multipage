@@ -1,0 +1,134 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f9f9f9;
+    align-items: center;
+  }
+  .hero-content {
+    flex: 1;
+    padding: 20px;
+  }
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  .hero-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .hero-content button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* SEO Process Section */
+  .seo-process {
+    padding: 20px;
+    background-color: #e8fce9;
+  }
+  .seo-process h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .process-steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .process-step {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    flex: 1;
+  }
+  .step-icon {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+  }
+  .step-details h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  .step-details p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Use Cases Section */
+  .use-cases {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  .use-cases h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .cases-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .case-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    flex: 1;
+    text-align: center;
+  }
+  .case-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .case-card p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  .case-card a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+    .seo-process, .use-cases {
+      padding: 10px;
+    }
+    .process-step, .case-card {
+      max-width: 100%;
+    }
+  }
+  

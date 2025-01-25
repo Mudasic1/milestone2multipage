@@ -1,0 +1,75 @@
+/* Footer Styles */
+.footer {
+    background-color: #68d391; /* Green background */
+    color: black; /* Black text */
+    padding: 24px 16px; /* Padding for spacing */
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .footer-logo-img {
+    width: 48px;
+    height: 48px; /* Logo size */
+  }
+  
+  .footer-brand-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-copyright {
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  /* Responsive Styles */
+  @media (min-width: 768px) {
+    .footer-container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+    }
+  
+    .footer-links {
+      justify-content: flex-start;
+      gap: 24px;
+    }
+  
+    .footer-copyright {
+      text-align: right;
+    }
+  }
+  

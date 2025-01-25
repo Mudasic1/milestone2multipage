@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .pricing-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Header */
+  .pricing-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .pricing-header h1 {
+    font-size: 2.5rem;
+    color: #222;
+  }
+  
+  .pricing-header p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Pricing Plans */
+  .pricing-plans {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .plan-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .plan-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .plan-card h4 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #000;
+  }
+  
+  .plan-card h4 span {
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  .plan-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .plan-card ul li {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .plan-card .primary-btn {
+    background: #222;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .plan-card .secondary-btn {
+    background: transparent;
+    color: #222;
+    border: 1px solid #222;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .popular-plan {
+    border: 2px solid #000;
+    background: #f0f0f0;
+  }
+  
+  /* FAQ Section */
+  .faq-section {
+    margin-top: 50px;
+  }
+  
+  .faq-section h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+  }
+  
+  .faq-item summary {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .faq-item p {
+    margin-top: 10px;
+    color: #555;
+  }
+  

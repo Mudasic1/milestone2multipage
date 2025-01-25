@@ -1,0 +1,64 @@
+.hero1 {
+    padding: 100px;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+    
+}
+
+.hero1 h1 {
+    font-weight: bold;
+    font-size: 40px;
+    max-width: 400px;
+    width: 100%; 
+}
+
+.hero1 p {
+    font-size: 14px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.hero1 button {
+    padding: 10px;
+    background-color: rgb(33, 32, 32);
+    width: 300px;
+    border-radius: 20px;
+    color: white;
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add pointer cursor for better UX */
+}
+
+@media (max-width: 1018px){
+    .hero1 {
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center; /* Center content horizontally */
+        text-align: center;  /* Center text for smaller screens */
+    }
+    
+    .hero1 h1 {
+        font-weight: bold;
+        font-size: 30px;
+        max-width: 400px;
+        width: 100%; /* Allow it to shrink on smaller screens */
+    }
+    
+    .hero1 p {
+        font-size: 14px;
+        max-width: 400px;
+        width: 100%;
+    }
+    
+    .hero1 button {
+        padding: 10px;
+        background-color: rgb(33, 32, 32);
+        width: 200px;
+        border-radius: 20px;
+        color: white;
+        border: none; 
+        cursor: pointer; 
+    }
+}
