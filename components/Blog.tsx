@@ -26,7 +26,7 @@ export default function Blogg() {
         <section>
           <h2>Striking the Right Balance</h2>
           <blockquote>
-            "PPC and organic marketing aren’t rivals—they’re teammates."
+            PPC and organic marketing aren&apos;t rivals—they&apos;re teammates.
           </blockquote>
           <p>A successful strategy often combines both approaches.</p>
         </section>

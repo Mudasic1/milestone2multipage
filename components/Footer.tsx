@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import './footer.css';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
       <div className="footer-container">
         {/* Logo Section */}
         <div className="footer-logo">
-          <img src="/logo.png" alt="Logo" className="footer-logo-img" />
+          <Image src="/logo.png" alt="Logo" className="footer-logo-img" width={100} height={100}/>
           <span className="footer-brand-name">Postivus</span>
         </div>
 
